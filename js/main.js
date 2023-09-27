@@ -6,13 +6,13 @@ createApp ({
 
   data(){
     return {
+
       testo: 'Ciao Vue'
+      
       
     }
   }
-
-
-
+  
 
 }).mount('#app')
 
