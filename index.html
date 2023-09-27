@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- link VUE cdn  -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.cjs.min.js' integrity='sha512-Nk4aRxW2zg0jN2rFYzF1Hc/xiTNTkk1LwMytaVrL7hK4Qij51+H7oNmKzDDYdUQzEEWAgBhzQ7F6bGYesDi1Bw==' crossorigin='anonymous'></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vue Hello</title>
@@ -19,22 +19,17 @@
 
     <div class="container">
 
-      <h1></h1>
-
-    <div class="card-image"></div>
-
-  </div>
+      <h1>{{testo}}</h1>
 
 
- </div> 
+      <div class="card-image">
+        <img :src="image" alt="immagine">
+      </div>
 
-  
-
-
-
-
+    </div>
 
 
+  </div> 
 
 
 
